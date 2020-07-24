@@ -1,6 +1,0 @@
-GET     /v1/health                      controllers.QuestionController.health(request: Request)
-GET     /v1/questions                   controllers.QuestionController.getQuestions(page:Int ?= 0)
-GET     /v1/question/:id                controllers.QuestionController.getQuestionById(id: Long)
-PUT     /v1/question                    controllers.QuestionController.createQuestion(request: Request)
-DELETE  /v1/question/:id                controllers.QuestionController.deleteQuestion(id: Long)
-POST    /v1/question                    controllers.QuestionController.amendQuestion(request: Request)
